@@ -1,0 +1,65 @@
+
+                             Exercice 1
+Ecrire un algorithme qui calcul la somme de trois (3) nombres entiers et affiche le résultat.
+--------------------------------------------------------------------------------------------------
+
+Posons le problème
+   - Saisir les trois (3) entiers (La saisie peut s'effectuer un à un ou les trois à la fois sur la meme ligne)
+   - Ensuite on effectue la somme des 3 entiers
+   - Enfin on affiche le resultat (la somme des 3 entiers)
+
+--------------------------------------------------------------------
+Première methode:
+
+Algorithme somme;
+VAR
+  a,b,c:entier;
+  som:réel;
+DEBUT
+  ECRIRE("Entrer le premier entier");
+  LIRE(a);
+  ECRIRE("Entrer le deuxième entier");
+  LIRE(b);
+  ECRIRE("Entrer le troisième entier");
+  LIRE(c);
+  som <- a + b + c;
+  
+  ECRIRE("La somme des trois (3) entiers est",som);
+FIN.
+
+---------------------------------------------------------------------
+Deuxième methode:
+
+Algorithme somme;
+VAR
+ a,b,c:entier;
+ som:réel;
+DEBUT
+  ECRIRE("Entrer les 3 entiers");  10 5 8
+  LIRE(a,b,c);
+  som<- a + b +c;
+  ECRIRE("La somme des 3 entiers est",som);
+FIN.
+
+
+----------------------------------------------------------------------
+Troisième methode
+
+Algorithme somm;
+VAR
+  a,i:entier;
+  som:réel;
+DEBUT
+   som <-0;
+
+   Pour i<- 1 à 3 Faire
+    DPOUR
+        ECRIRE("Entrer l'entier n°",i);
+        LIRE(a);
+        som<-som + a;
+    FPOUR
+
+    ECRIRE("La somme des trois (3) entiers est",som);
+FIN.
+   
+     
